@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Appium Demo Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Android Calendar Test(failed)" verbose="0">
+    <classes>
+      <class name="com.calendar.DeviceCapabilities">
+        <methods>
+          <include name="myFirstTest"/>
+          <include name="test"/>
+          <include name="afterMethod"/>
+          <include name="uninstallApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.calendar.DeviceCapabilities -->
+    </classes>
+  </test> <!-- Android Calendar Test(failed) -->
+</suite> <!-- Failed suite [Appium Demo Suite] -->
